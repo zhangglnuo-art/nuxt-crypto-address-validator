@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-crypto-address-validator",
+  "version": "1.0.0",
+  "description": "Zero-dependency Nuxt 3/4 module and composable for multi-chain wallet address syntax, checksum, mandatory Memo/Tag routing, and address-poisoning validation across 46+ blockchains.",
+  "homepage": "https://allswap.io/tools/address-validator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangglnuo-art/nuxt-crypto-address-validator.git"
+  },
+  "license": "MIT",
+  "author": "AllSwap Security Labs <zhangglnuo@gmail.com> (https://allswap.io)",
+  "main": "./dist/module.mjs",
+  "types": "./dist/types.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "nuxt3",
+    "nuxt4",
+    "blockchain",
+    "cryptocurrency",
+    "address-validator",
+    "address-poisoning",
+    "web3",
+    "allswap"
+  ],
+  "dependencies": {
+    "@nuxt/kit": "^3.13.0",
+    "multichain-memo-address-validator": "^1.0.0"
+  },
+  "peerDependencies": {
+    "nuxt": ">=3.0.0"
+  }
+}
